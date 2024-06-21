@@ -1,0 +1,16 @@
+# Ignorer les fichiers de cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorer les fichiers temporaires d'éditeurs de texte
+*.swp
+
+# Ignorer les dossiers d'environnement virtuel
+env/
+
+# Ignorer les fichiers et dossiers spécifiques aux ressources
+resources/bank/source/*
+resources/bank/input/*
+resources/bank/output/*
+resources/algorithms/*
