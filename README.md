@@ -8,7 +8,7 @@ This project is also a way to experiment with Python features (PyQt) and does no
 # Database structure 
 MySQL/MariaDB  :
 
-CREATE TABLE img (
+CREATE TABLE source (
     id INT AUTO\_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
     infos TEXT,
