@@ -1,15 +1,12 @@
 # ThreadArtDB
-This project is a graphical interface designed to manage a database of ThreadArt images, regardless the algorithm used.
-
+This project is a graphical interface designed to manage a database of ThreadArt images, independent of the algorithm used.
 It doesn't incorporate by default any thread art generation algorithm.
 
-
 # Disclaimer
-This project is also a way for me to experiment with Python features (PyQt) and does not claim to be a fully functional tool at the moment. 
+This project is also a way to experiment with Python features (PyQt) and does not claim to be a fully functional tool at the moment. 
 
 # Database structure 
-
-This program is intended to work with MySQL/MariaDB with this structure :
+MySQL/MariaDB  :
 
 CREATE TABLE img (
     id INT AUTO\_INCREMENT PRIMARY KEY,
